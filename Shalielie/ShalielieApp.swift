@@ -185,7 +185,7 @@ struct PhotoPicker: UIViewControllerRepresentable {
 
         func picker(_ picker: PHPickerViewController, didFinishPicking results: [PHPickerResult]) {
             picker.dismiss(animated: true) {
-                parent.onPick(results.first)
+                self.parent.onPick(results.first)
             }
         }
     }
