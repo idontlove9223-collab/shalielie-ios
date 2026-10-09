@@ -1,0 +1,23 @@
+name: Shalielie
+options:
+  deploymentTarget:
+    iOS: "15.0"
+  createIntermediateGroups: true
+targets:
+  Shalielie:
+    type: application
+    platform: iOS
+    sources:
+      - Shalielie
+    info:
+      path: Shalielie/Info.plist
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.shalielie.photostyle
+        PRODUCT_NAME: Shalielie
+        SWIFT_VERSION: "5.0"
+        SWIFT_STRICT_CONCURRENCY: minimal
+        TARGETED_DEVICE_FAMILY: "1"
+        CODE_SIGNING_ALLOWED: "NO"
+        CODE_SIGNING_REQUIRED: "NO"
+        CODE_SIGN_IDENTITY: ""
